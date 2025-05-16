@@ -17,10 +17,19 @@ A simple interactive survey web app for collecting film preferences using [Shiny
 - `pandas`
 - `pathlib` (standard library)
 
-## 📦 Requirements
+## My Approach
+This was a beginner project to practise building simple web apps using Shiny in Python. I wanted to focus on creating a clean, user-friendly form that would allow people to rate a few films and submit their preferences.
 
-Install dependencies using:
+I started by setting up basic form inputs using built-in Shiny UI functions. I included a mix of input types such as text boxes, dropdowns, and sliders. To keep things organised and readable, I grouped inputs into two columns — one for demographic information and one for film ratings.
 
-```bash
-pip install -r requirements.txt
+Instead of advanced layout tools, I used simple CSS styling to centre the form and improve spacing. I chose pastel colours to keep the look light and accessible.
 
+For storage, I used pandas to collect and append each submission to a CSV file, and pathlib to handle file paths in a cross-platform way. I originally experimented with star ratings but found sliders easier to implement cleanly for now.
+
+This project helped me practise UI layout, form handling, and basic data storage with Python and Shiny.
+
+## Requirements
+pip install shiny pandas
+
+## Running the app 
+shiny run --reload app.py
