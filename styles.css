@@ -1,0 +1,16 @@
+body {
+    background-color: #e7f0fa;
+}
+
+.card {
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+}
+
+.form-label {
+    margin-top: 0.5rem;
+}
+
+.shiny-input-container {
+    margin-bottom: 1rem;
+}
