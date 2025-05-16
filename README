@@ -1,0 +1,87 @@
+🎬 Movie Preference Survey – Built with PyShiny
+A simple and clean web-based movie survey app using PyShiny (Shiny for Python). Users can input their name, region, age, and income, rate a selection of movies, and leave open feedback.
+
+This app is a beginner project aimed at learning how to build interactive apps using Shiny Express, Pandas, and basic form layout and styling with CSS.
+
+✨ Features
+User-friendly survey form
+
+Responsive layout using cards and columns
+
+Collects demographic data and movie preferences
+
+Saves submissions to a local CSV file
+
+Custom styling with CSS
+
+🧰 Tools & Technologies
+Python 3.10+
+
+Shiny for Python
+
+Shiny Express
+
+Pandas
+
+CSS (for styling)
+
+📦 Requirements
+Install the dependencies with:
+
+bash
+Copy
+Edit
+pip install -r requirements.txt
+requirements.txt
+txt
+Copy
+Edit
+shiny
+pandas
+🚀 How to Run the App
+Clone this repository:
+
+bash
+Copy
+Edit
+git clone https://github.com/your-username/movie-survey-app.git
+cd movie-survey-app
+(Optional) Create and activate a virtual environment:
+
+bash
+Copy
+Edit
+python -m venv venv
+.\venv\Scripts\activate  # On Windows
+source venv/bin/activate  # On macOS/Linux
+Install dependencies:
+
+bash
+Copy
+Edit
+pip install -r requirements.txt
+Run the app:
+
+bash
+Copy
+Edit
+shiny run --reload app.py
+Open your browser and go to http://localhost:8000
+
+📁 File Structure
+bash
+Copy
+Edit
+📦movie-survey-app/
+├── app.py              # Main Shiny app
+├── inputs.py           # All input fields and layout components
+├── styles.css          # Custom styles
+├── responses.csv       # Stores submitted survey data
+├── requirements.txt    # List of Python dependencies
+└── README.md           # You're reading it!
+💡 Future Ideas
+Add validation with shiny_validate
+
+Deploy the app online (e.g., Shinyapps.io or Posit Connect)
+
+Explore charts/visualization of the responses
